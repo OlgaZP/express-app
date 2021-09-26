@@ -1,0 +1,15 @@
+GET http://localhost:5000/cars
+
+###
+POST http://localhost:5000/cars
+Content-Type: application/json
+
+{
+    "name": "BMW",
+    "model": "X5",
+    "manufacturedYear": 2006
+}
+
+###
+
+DELETE  http://127.0.0.1:5000/cars/f68decb4-b2e4-4646-b27d-08e63e8bbb52
